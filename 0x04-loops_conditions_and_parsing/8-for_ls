@@ -1,0 +1,3 @@
+#!/usr/bin/env bash
+# This script lists non-hidden files after the first dash
+for file in *-*; do echo "${file#*-}"; done

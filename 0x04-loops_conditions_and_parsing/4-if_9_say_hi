@@ -1,0 +1,3 @@
+#!/usr/bin/env bash
+# This script prints "Hi" after the 9th "Best School" using a while loop and if
+i=1; while [ $i -le 10 ]; do echo "Best School"; [ $i -eq 9 ] && echo "Hi"; ((i++)); done
