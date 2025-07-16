@@ -1,0 +1,5 @@
+#!/usr/bin/env bash
+# shellcheck disable=SC2009
+# Show all lines from ps auxf containing bash
+
+ps auxf | grep bash
